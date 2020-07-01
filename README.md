@@ -37,7 +37,7 @@ Building MSI packages is a two-phase process which requires using
 openvpn-build-bionic (Ubuntu 18.04) and msibuilder (Windows Server 2016) VMs.
 The former is used to produce Windows binaries and the latter to produce MSI
 packages. The openvpn-build directory on openvpn-build-bionic is shared with
-Samba so that msibuilder can access the build artefacts. The setup process is
+Samba so that msibuilder can access the build artifacts. The setup process is
 almost completely automated:
 
     $ vagrant up openvpn-build-bionic
